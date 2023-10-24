@@ -23,7 +23,7 @@ In this code example, we implement the Prototype Design Pattern for creating `Pe
 - **Concrete Prototype (Person):** The `Person` class implements the clone method, allowing it to create a new instance by copying an existing one.
 
 ## UML diagram
-![UML]()
+![UML](https://github.com/rohithooda10/Design-Patterns/tree/163bd395e312e7524810b0e952a8c8c970deed17/Prototype/UML.png)
 
 ## How to Use
 
