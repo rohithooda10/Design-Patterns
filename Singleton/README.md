@@ -21,7 +21,7 @@ In this code example, we implement the Singleton Design Pattern for creating a `
 
 ## UML class diagram
 
-![UML]()
+![UML]("https://github.com/rohithooda10/Design-Patterns/tree/b3ba1132250bf4de6f881abebaccbdfff526b22a/Singleton/UML.png")
 
 ## How to Use
 
