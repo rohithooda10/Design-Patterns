@@ -28,8 +28,7 @@ In this code example, we implement the Builder Design Pattern for creating deskt
 - **Client (main function):** The client code selects a builder based on user input (brand) and uses the director to construct the desktop. The finished product is displayed to the user.
 
 ## UML class diagram
-![My Image](UML.png)
-
+![My Image](https://github.com/rohithooda10/Design-Patterns/tree/cb976b2fff6d2eeec9db1f79ba73a28477095d3b/Builder#uml-class-diagram/UNL.png)
 
 ## How to Use
 
