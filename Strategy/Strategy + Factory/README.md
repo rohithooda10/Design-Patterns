@@ -24,6 +24,10 @@ In this code example, we implement the Strategy Design Pattern with a Strategy F
 
 - **Context:** The `PaymentManager` class represents the context in which a payment strategy is chosen and used. It utilizes the factory to create the strategy and then executes the payment operations.
 
+## UML class diagram
+<img width="824" alt="UML" src="https://github.com/rohithooda10/Design-Patterns/assets/109358642/362749e7-d416-463a-94ae-da5e192ada8a">
+
+
 ## How to Use
 
 1. Clone or download this repository.
