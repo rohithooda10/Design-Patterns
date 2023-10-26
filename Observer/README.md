@@ -23,7 +23,8 @@ In this code example, we implement the Observer Design Pattern for creating an `
 - **Subject:** The `Subject` class maintains a list of observers and provides methods to attach, detach, and notify observers. When a subject's state changes, it notifies all attached observers.
 
 ## UML class diagram
-![UML]("https://github.com/rohithooda10/Design-Patterns/tree/bb9c8d49af70e9c2ec32c936ade34538cd0e8ee9/Observer/UML.png")
+<img width="649" alt="UML" src="https://github.com/rohithooda10/Design-Patterns/assets/109358642/b8143bf1-7231-4a69-90e7-fab734ada66b">
+
 
 ## How to Use
 
