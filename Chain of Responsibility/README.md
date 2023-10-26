@@ -20,6 +20,9 @@ In this code example, we implement the Chain of Responsibility Design Pattern fo
 
 - **Concrete Handlers:** The `Manager`, `HR`, and `CTO` classes implement the `handle` method and determine whether to process the request or pass it to the next handler in the chain.
 
+## UML class diagram
+<img width="826" alt="UML" src="https://github.com/rohithooda10/Design-Patterns/assets/109358642/39c9749d-22a5-4bb4-a61a-a004f76b39a2">
+
 ## How to Use
 
 1. Clone or download this repository.
