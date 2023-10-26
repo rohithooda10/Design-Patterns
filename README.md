@@ -53,7 +53,7 @@ For each design pattern, you will find:
 
 - **UML Class Diagram**: Visual representation of the pattern's class structure and relationships.
 
-- **README**: A detailed guide explaining the pattern, its use cases, advantages, and step-by-step instructions on how to implement it.
+- **README**: A detailed guide explaining the pattern, its use cases and explaining the code.
 
 ## How to Use This Repository
 
