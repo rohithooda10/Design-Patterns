@@ -20,8 +20,7 @@ In this code example, we implement the Singleton Design Pattern for creating a `
 - **Singleton Class (LoggerSingleton):** This class is responsible for controlling the creation and access to the `Logger` instance. It uses a double-checking lock to ensure thread-safety when creating the instance.
 
 ## UML class diagram
-
-![UML]("https://github.com/rohithooda10/Design-Patterns/tree/b3ba1132250bf4de6f881abebaccbdfff526b22a/Singleton/UML.png")
+<img width="252" alt="UML" src="https://github.com/rohithooda10/Design-Patterns/assets/109358642/acfe4558-d318-4baf-b6ad-6271890b41da">
 
 ## How to Use
 
