@@ -25,6 +25,7 @@ In this code example, we implement the Command Design Pattern for creating a `Co
 - **Invoker:** The `Menu` class acts as the invoker. It holds instances of concrete commands and can execute them when requested.
 
 ## UML class diagram
+<img width="596" alt="UML" src="https://github.com/rohithooda10/Design-Patterns/assets/109358642/f7a84fd9-7392-4da3-94f0-257333c7e7fd">
 
 
 ## How to Use
