@@ -48,10 +48,10 @@ public:
 
 // Invoker
 class Menu{
-    OpenCommand* openCommand;
-    SaveCommand* saveCommand;
+    Command* openCommand;
+    Command* saveCommand;
 public:
-    Menu(OpenCommand* op, SaveCommand* sv)
+    Menu(Command* op, Command* sv)
     {
         openCommand = op;
         saveCommand = sv;
@@ -68,8 +68,8 @@ public:
 
 int main() {
     Document* document = new Document();
-    OpenCommand* openCommand = new OpenCommand(document);
-    SaveCommand* saveCommand = new SaveCommand(document);
+    Command* openCommand = new OpenCommand(document);
+    Command* saveCommand = new SaveCommand(document);
     Menu* menu = new Menu(openCommand, saveCommand);
     menu->clickOpen();
     menu->clickSave();

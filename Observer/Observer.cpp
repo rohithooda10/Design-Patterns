@@ -1,4 +1,5 @@
 #include <iostream>
+#include <set>
 using namespace std;
 
 // Observer
@@ -23,17 +24,17 @@ public:
 
 // Notifier subject
 class Subject{
-    set<ConcreteObserver*> observers;
+    set<Observer*> observers;
 public:
     void updateStatus()
     {
         notifyObservers();
     }
-    void attach(ConcreteObserver* observer)
+    void attach(Observer* observer)
     {
         observers.insert(observer);
     }
-    void detach(ConcreteObserver* observer)
+    void detach(Observer* observer)
     {
         observers.erase(observer);
     }
@@ -48,8 +49,8 @@ public:
 
 int main() {
     Subject* order = new Subject();
-    ConcreteObserver* customer = new ConcreteObserver("Customer");
-    ConcreteObserver* delivery = new ConcreteObserver("Delivery");
+    Observer* customer = new ConcreteObserver("Customer");
+    Observer* delivery = new ConcreteObserver("Delivery");
     order->attach(customer);
     order->attach(delivery);
     order->updateStatus();
