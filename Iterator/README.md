@@ -22,6 +22,10 @@ In this code example, we implement the Iterator Design Pattern for creating an `
 
 - **Aggregator:** The `ProductManager` class represents an aggregator or a collection. It provides methods to add and remove items and also creates an iterator for the collection.
 
+## UML class diagram
+<img width="674" alt="UML" src="https://github.com/rohithooda10/Design-Patterns/assets/109358642/bb8adb35-bf48-4e10-b20f-cdcd167ec8de">
+
+
 ## How to Use
 
 1. Clone or download this repository.
