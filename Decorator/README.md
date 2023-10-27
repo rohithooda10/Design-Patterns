@@ -24,6 +24,10 @@ In this code example, we implement the Decorator Design Pattern for creating a `
 
 - **Concrete Decorators:** The `CheeseDecorator` and `SauceDecorator` classes are concrete decorators that add extra features to food items. They extend the behavior of the `FoodItem` they decorate by modifying the description and price.
 
+## UML class diagram
+<img width="884" alt="UML" src="https://github.com/rohithooda10/Design-Patterns/assets/109358642/52fa8b73-c6f5-407d-9940-1437f4311583">
+
+
 ## How to Use
 
 1. Clone or download this repository.
