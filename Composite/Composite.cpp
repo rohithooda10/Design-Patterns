@@ -50,6 +50,7 @@ public:
     }
     void move(FileComponent* d, FileComponent* newComp)
     {
+        // removing "newComp" from my own content and adding to "d"
         int index= 0;
         for(int i = 0; i < contents.size(); i++)
         {
@@ -78,6 +79,6 @@ int main() {
     newSub->add(f2);
     root->add(sub);
     // sub->listContents();
-    sub->move(root, newSub);
+    sub->move(root, newSub); // moving "newSub" from "sub" to "root"
     newSub->listContents();
 }
