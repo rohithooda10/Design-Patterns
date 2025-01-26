@@ -1,4 +1,5 @@
 #include <iostream>
+#include <mutex>
 using namespace std;
 
 // Product
@@ -21,6 +22,7 @@ public:
 // Singleton class
 class LoggerSingleton{
     Logger* logger;
+    mutex mtx;
 public:
     Logger* createLogger()
     {
@@ -28,6 +30,7 @@ public:
         if(logger == NULL)
         {
             // lock()
+            lock_guard<mutex> lock(mtx);
             if(logger == NULL)
                 logger = new Logger();
             // unlock()
